@@ -16,4 +16,4 @@ Esclareça suas dúvidas.<br>
    
 ### Artefatos
 
-1. _Issue_ criada pela conta do estudante no projeto https://github.com/plinioleitao/bd-2024-1-bcc, cujo título é "Tópico 01", para indicar seus dados e expectativas para efeito da disciplina.
+1. _Issue_ criada pela conta do estudante no projeto https://github.com/plinioleitao/bd-2024-2-bcc, cujo título é "Tópico 01", para indicar seus dados e expectativas para efeito da disciplina.
