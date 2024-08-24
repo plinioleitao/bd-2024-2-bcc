@@ -11,7 +11,7 @@ Esclareça suas dúvidas.<br>
    - o título da _issue_ deve ser "Tópico 01";
    - o conteúdo (corpo) da _issue_ deve possuir:
      - Meu registro acadêmico: coloque aqui o seu registro acadêmico (ou seja, número de matrícula).
-     - Minha no GitHub: coloque aqui a URL da sua conta (por exemplo, a conta do professor é https://github.com/plinioleitao).
+     - Minha no GitHub: coloque aqui a URL da sua conta (por exemplo, a URL da conta do professor é https://github.com/plinioleitao).
      - Minhas expectativas com respeito à disciplina: coloque aqui as expectativas que possui para o andamento da disciplina, incluido o que você gostaria de aprender.
    
 ### Artefatos
