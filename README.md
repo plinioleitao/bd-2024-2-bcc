@@ -2,12 +2,11 @@
 
 ### `Bem-vindo(a) !!` 
 
-O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano-novo.pdf).<br>
+O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).<br>
 
 ### `Para refletir...`
 
-1. Qual a distinção entre _Modelo de Dados_ e _Esquema de Banco de Dados_ ?
-2. Qual a distinção entre _Entidade_, _Relacionamento_ e _Attibuto_ ?
+1. Qual a distinção entre _Dados_ e _Metadados_ ?
 
 ### `Tópicos ativos ...`
 
