@@ -2,7 +2,7 @@
 
 ### `Bem-vindo(a) !!` 
 
-O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano-novo.pdf).<br>
+O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano-novo.pdf).<br>
 
 ### `Para refletir...`
 
@@ -11,12 +11,7 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-1-bcc-plano-novo.
 
 ### `Tópicos ativos ...`
 
-- [Tópico 04b](./topico/topico-04b.md) --> Requisitos `BD Livraria Virtual`
-- [Tópico 35](./topico/topico-35.md)
-- [Tópico 36](./topico/topico-36.md)
-- [Tópico 37](./topico/topico-37.md)
-- [Tópico 38](./topico/topico-38.md)
-- [Tópico 39](./topico/topico-39.md)
+- [Tópico 01](./topico/topico-01.md)
 - [Todos os tópicos](./topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
