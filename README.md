@@ -14,6 +14,9 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).
 - [Tópico 01](./topico/topico-01.md)
 - [Tópico 02](./topico/topico-02.md)
 - [Tópico 03](./topico/topico-03.md)
+- [Tópico 04a](./topico/topico-04a.md)
+- [Tópico 05](./topico/topico-05.md)
+- [Tópico 06a](./topico/topico-06a.md)
 - [Todos os tópicos](./topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
