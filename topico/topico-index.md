@@ -1,3 +1,5 @@
+[Tópico 07](./topico-07.md) - Modelo de Dados<br>
+[Tópico 06b](./topico-06b.md) - Sistema gerenciador de banco de dados (parte 2)<br>
 [Tópico 06a](./topico-06a.md) - Sistema gerenciador de banco de dados (parte 1)<br>
 [Tópico 05](./topico-05.md) - Dados e metadados<br>
 [Tópico 04b](./topico-04b.md) - Requisitos de Dados - BD Prontuário do Paciente, Reserva de passagens aéreas, Controle de estoque de comércio de produtos, Gerência de obras de construção civil, ...<br>
