@@ -6,8 +6,7 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).
 
 ### `Para refletir...`
 
-1. Qual a distinção entre _Dados_ e _Metadados_ ?
-2. Qual altera em geral com maior frequência: _Dados_ ou _Metadados_ ?
+1. Qual a distinção entre _Modelo de Dados_ e _Esquema de Dados_ ?
 
 ### `Tópicos ativos ...`
 
