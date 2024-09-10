@@ -1,3 +1,4 @@
+[Tópico 08](./topico-08.md) - Modelo Relacional (MR) - Primeiros passos e _Checklist_<br>
 [Tópico 07](./topico-07.md) - Modelo de Dados<br>
 [Tópico 06b](./topico-06b.md) - Sistema gerenciador de banco de dados (parte 2)<br>
 [Tópico 06a](./topico-06a.md) - Sistema gerenciador de banco de dados (parte 1)<br>
