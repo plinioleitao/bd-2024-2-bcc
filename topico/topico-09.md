@@ -31,7 +31,7 @@ Sejam:<br>
 
 Então:
 - **&#8704; t<sub>j</sub> &#8714; r(R)**  &#8743;  **&#8704; A<sub>i</sub>** de **R** :
-  - **t[A<sub>i</sub>] &#8714; dom(A<sub>i</sub>)**.
+  - **t<sub>j</sub>[A<sub>i</sub>] &#8714; dom(A<sub>i</sub>)**.
 
 Ou seja, a **restrição de domínio** determina que, em cada _tupla_, o valor do atributo **A<sub>i</sub>** deve ser:<br>
 &#8718; um valor atômico; e<br>
