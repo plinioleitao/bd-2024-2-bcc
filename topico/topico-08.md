@@ -48,7 +48,7 @@ Para o Modelo Relacional (MR), um *checklist* com a maioria dos conceitos deste 
 
 >Para que que haja melhor fluência no emprego do MR, é pertinente e importante que entendamos **todos** os conceitos presentes no ***checklist* de conceitos** do MR, apresentado acima.
 
-Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados no Capítulo 3 do livro sugerido[1]. 
+Esses conceitos serão empregados nos próximos tópicos. Contudo, desde já é mandatório que sejam lidos e estudados no capítulo pertinente ao conteúdo no livro sugerido[1]. 
 
 ### Exercício
 
