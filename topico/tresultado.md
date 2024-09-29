@@ -13,3 +13,16 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 #### Avaliação em 18/09/2024
 
 (F) Uma tupla representa um conjunto... (V) O domínio do atributo Ai, denotado... (V) Um método comum... (F) Uma relação r(R), também denominada... (F) Cada _n-tupla_ t é um conjunto... (V) O i-ésimo valor na tupla... (F) Uma relação r(R) contém... (V) Na restrição de domínio... (F) Na restrição de chave... (V) Um esquema de banco de dados relacional é um... (F) Segundo a restrição de integridade de entidade... (V) Os atributos da chave estrangeira... (F) Chave primária e chave estrangeira... (F) Uma superchave pode ser... (V) Um esquema de relação possui pelo... (F) Uma superchave é uma... (V) Pode haver relacionamento (associação) entre duas _tuplas_ de relações distintas. (V) Pode haver relacionamento (associação) entre duas _tuplas_ da mesma relação. (V) O modelo relacional é um modelo em nível... (F) É comum a analogia entre relação e tabela...
+
+#### Avaliação em 25/09/2024
+
+|Resposta|Operação|
+|-|-|
+|12|Incluir a tupla <NULL,"Boné",12.00,"vestuário"> em PRODUTO|
+|03|Incluir a tupla <1212,2.10,"Borracha","papel"> em PRODUTO|
+|08|Alterar a tupla <"papel","Papelaria e escritório"> para <"papeis","Papelaria e Outros"> em CATEGORIA|
+|08|Excluir a tupla <"papel","Papelaria e escritório"> em CATEGORIA|
+|02|Incluir a tupla <1212,"Borracha",2.10,"papel"> em PRODUTO|
+|08|Alterar a tupla <"papel","Papelaria e escritório"> para <"papelaria","Papelaria e Escritório"> em CATEGORIA|
+|00|Excluir a tupla <1111,"Bola",20.00,"esporte"> em PRODUTO|
+
