@@ -1,3 +1,4 @@
+[Tópico 12](./topico-12.md) - Álgebra Relacional - Produto Cartesiano e Junção<br>
 [Tópico 11](./topico-11.md) - Álgebra Relacional - Fundamentos e Primeiras operações<br>
 [Tópico 10b](./topico-10b.md) - Modelo Relacional (MR) - Exercício (parte 2)<br>
 [Tópico 10a](./topico-10a.md) - Modelo Relacional (MR) - Exercício (parte 1)<br>
