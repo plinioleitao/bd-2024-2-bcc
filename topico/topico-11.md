@@ -114,11 +114,11 @@ A **Operação RENOMEAÇÃO#1** aplica a renomeação da relação e/ou dos atri
 #### RENOMEAÇÃO#1 Exemplo 1:
 A expressão **π <sub>CodProduto, Preço</sub> (σ <sub>Categ="papel"</sub> (PRODUTO))** pode ser reescrita como um sequência de duas expressões:<br>
 &#8718; TEMP &#8592; σ <sub>Categ="papel"</sub> (PRODUTO)<br>
-&#8718; RESULT (Cod, Valor) &#8592; π <sub>CodProduto, Preço</sub> (TEMP)<br>
+&#8718; RESULT &#8592; π <sub>CodProduto, Preço</sub> (TEMP)<br>
 Esta sequência de expressões resulta em<br>
 
 RESULT
-| Cod | Valor |
+| CodProduto | Preço |
 |-|-|
 | 1234 | 0.70 |
 | 2222 | 1.20 |
