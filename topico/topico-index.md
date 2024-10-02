@@ -1,3 +1,5 @@
+[Tópico 13b](./topico-13b.md) - Álgebra Relacional - Junção _vs._ União, Interseção, Diferença<br>
+[Tópico 13a](./topico-13a.md) - Álgebra Relacional - União, Interseção, Diferença<br>
 [Tópico 12](./topico-12.md) - Álgebra Relacional - Produto Cartesiano e Junção<br>
 [Tópico 11](./topico-11.md) - Álgebra Relacional - Fundamentos e Primeiras operações<br>
 [Tópico 10b](./topico-10b.md) - Modelo Relacional (MR) - Exercício (parte 2)<br>
