@@ -32,6 +32,6 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 2. π Cpf, Pnome ( FUNCIONARIO ⋈ Cpf=Fcpf   TRABALHA_EM )
 
-3. SUP_E_GER &#8592; π Cpf_gerente ( FUNCIONARIO ⋈ Cpf_supervisor=Cpf_gerente  DEPARTAMENTO )<br>π Pnome ( FUNCIONARIO ⨝ Cpf=Cpf_gerente SUP_E_GER )<br><br>OU<br><br>SUPER &#8592; π S.Cpf, S.Pnome ( ρ F (FUNCIONARIO) ⋈ F.Cpf_supervisor = S.Cpf ρ S (FUNCIONARIO) )<br>π Pnome ( SUPER ⨝ Cpf=Cpf_gerente DEPARTAMENTO )
+3. SUP_E_GER &#8592; π Cpf_gerente ( FUNCIONARIO ⋈ Cpf_supervisor=Cpf_gerente  DEPARTAMENTO )<br>π Pnome ( FUNCIONARIO ⨝ Cpf=Cpf_gerente SUP_E_GER )<br>OU<br>SUPER &#8592; π S.Cpf, S.Pnome ( ρ F (FUNCIONARIO) ⋈ F.Cpf_supervisor = S.Cpf ρ S (FUNCIONARIO) )<br>π Pnome ( SUPER ⨝ Cpf=Cpf_gerente DEPARTAMENTO )
 
 
