@@ -26,3 +26,12 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 |08|Alterar a tupla <"papel","Papelaria e escritório"> para <"papelaria","Papelaria e Escritório"> em CATEGORIA|
 |00|Excluir a tupla <1111,"Bola",20.00,"esporte"> em PRODUTO|
 
+#### Avaliação em 02/10/2024
+
+1. π Pnome ( FUNCIONARIO ⋈ Cpf=Fcpf  DEPENDENTE )
+
+2. π Cpf, Pnome ( FUNCIONARIO ⋈ Cpf=Fcpf   TRABALHA_EM )
+
+3. SUP_E_GER &#8592; π Cpf_gerente ( FUNCIONARIO ⋈ Cpf_supervisor=Cpf_gerente  DEPARTAMENTO )<br>π Pnome ( FUNCIONARIO ⨝ Cpf=Cpf_gerente SUP_E_GER )<br><br>OU<br><br>SUPER &#8592; π S.Cpf, S.Pnome ( ρ F (FUNCIONARIO) ⋈ F.Cpf_supervisor = S.Cpf ρ S (FUNCIONARIO) )<br>π Pnome ( SUPER ⨝ Cpf=Cpf_gerente DEPARTAMENTO )
+
+
