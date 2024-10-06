@@ -1,0 +1,71 @@
+group: BD Empresa
+description[[Os dados deste conjunto de dados vêm do livro Elmasri-Navathe]]
+
+FUNCIONARIO = {
+Pnome, Minicial, Unome, Cpf:string, Datanasc:string, Endereco:string, Sexo, Salario:number, Cpf_supervisor:string, Dnr:number
+'Joao', 'B', 'Silva', '12345678966', '1965-01-09', 'Rua das Flores, 751, Sao Paulo, SP', 'M', 30000, '33344555587', '5'
+'Fernando', 'T', 'Wong', '33344555587', '1955-12-08', 'Rua da Lapa, 34, Sao Paulo, SP', 'M', 40000, '88866555576', '5'
+'Alice', 'J', 'Zelaya', '99988777767', '1968-01-19', 'Rua Souza Lima, 54, Curtiba, PR', 'F', 25000, '98765432168', '4'
+'Jeniffer', 'S', 'Souza', '98765432168', '1941-06-20', 'Av. Arthur de Lima, 54, Santo André, SP', 'F', 43000, '88866555576', '4'
+'Ronaldo', 'K', 'Lima', '66688444476', '1962-09-15', 'Rua Reboucas, 65, Piracicaba, SP', 'M', 38000, '33344555587', '5'
+'Joice', 'A', 'Leite', '45345345376', '1972-07-31', 'Av. Lucas Obes, 74, Sao Paulo, SP', 'F', 25000, '33344555587', '5'
+'Andre', 'V', 'Pereira', '98798798733', '1969-03-29', 'Rua Timbira, 35, Sao Paulo, SP', 'M', 25000, '98765432168', '4'
+'Jorge', 'E', 'Brito', '88866555576', '1937-11-10', 'Rua do Horto, 35, Sao Paulo, SP', 'M', 55000, NULL, '1'
+}
+
+DEPARTAMENTO = {
+Dnome,Dnumero:number,Cpf_gerente:string,Data_inicio_gerente:string
+'Pesquisa', 5, '33344555587', '1988-05-22'
+'Administracao', 4, '98765432168', '1995-01-01'
+'Matriz', 1, '88866555576', '1981-06-19'
+}
+
+LOCALIZACAO_DEP = {
+Dnumero:number,Dlocal
+1, 'Sao Paulo'
+4, 'Maua'
+5, 'Santo Andre'
+5, 'Itu'
+5, 'Sao Paulo'
+}
+
+TRABALHA_EM = {
+Fcpf:string,Pnr:number,Horas:number
+'12345678966', 1, 32.5
+'12345678966', 2, 7.5
+'66688444476', 3, 40.0
+'45345345376', 1, 20.0
+'45345345376', 2, 20.0
+'33344555587', 2, 10.0
+'33344555587', 3, 10.0
+'33344555587', 10, 10.0
+'33344555587', 20, 10.0
+'99988777767', 30, 30.0
+'99988777767', 10, 10.0
+'98798798733', 10, 35.0
+'98798798733', 30, 5.0
+'98765432168', 30, 20.0
+'98765432168', 20, 15.0
+'88866555576', 20, NULL
+}
+
+PROJETO = {
+Projnome,Projnumero:number,Projlocal,Dnum:number
+'ProdutoX', 1, 'Santo Andre', 5
+'ProdutoY', 2, 'Itu', 5
+'ProdutoZ', 3, 'Sao Paulo', 5
+'Informatizacao', 10, ' Maua', 4
+'Reorganizacao', 20, 'Sao Paulo', 1
+'Novosbeneficios', 30, 'Maua', 4
+}
+
+DEPENDENTE = {
+Fcpf:string,Nome_dependente,Sexo,Datanasc:string,Parentesco
+'33344555587', 'Alicia', 'F', '1986-04-05', 'Filha'
+'33344555587', 'Tiago', 'M', '1983-10-25', 'Filho'
+'33344555587', 'Janaina', 'F', '1958-05-03', 'Esposa'
+'98765432168', 'Antonio', 'M', '1942-02-28', 'Marido'
+'12345678966', 'Michael', 'M', '1988-01-04', 'Filho'
+'12345678966', 'Alicia', 'F', '1988-12-30', 'Filha'
+'12345678966', 'Elizabeth', 'F', '1967-05-05', 'Esposa'
+}

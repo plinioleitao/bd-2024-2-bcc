@@ -1,3 +1,6 @@
+[Tópico 17b](./topico-17b.md) - Álgebra Relacional - Ferramenta RelaX (parte 2)<br>
+[Tópico 15](./topico-15.md) - Álgebra Relacional - Vários comandos<br>
+[Tópico 14](./topico-14.md) - Álgebra Relacional - Divisão, Função Agregada, Agrupamento<br>
 [Tópico 13b](./topico-13b.md) - Álgebra Relacional - Junção _vs._ União, Interseção, Diferença<br>
 [Tópico 13a](./topico-13a.md) - Álgebra Relacional - União, Interseção, Diferença<br>
 [Tópico 12](./topico-12.md) - Álgebra Relacional - Produto Cartesiano e Junção<br>
