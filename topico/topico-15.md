@@ -57,7 +57,7 @@ Veja os conteúdos apresentados nos tópicos.<br>
 Considere o exemplo abaixo.
 
 [Grupo 1] **Expressão 3:**<br>
-Qual o primeiro e o último nome dos funcionários de sexo feminino?
+Qual o primeiro e o último nomes dos funcionários de sexo feminino?
 
 |Pnome|Unome|
 |-|-|
