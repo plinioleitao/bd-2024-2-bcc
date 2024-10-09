@@ -36,7 +36,7 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 #### Avaliação em 09/10/2024
 
-2. TEMP1 &#8592; π TE1.Fcpf  (<br>&nbsp;&nbsp;&nbsp;&nbsp;σ TE1.Pnr ≠ TE2.Pnr (<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ρ TE1 TRABALHA_EM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⨝ TE1.Fcpf = TE2.Fcpf ρ TE2 TRABALHA_EM ) )<br>π Cpf, Pnome ( TEMP1 ⨝ Fcpf = Cpf FUNCIONARIO )
+2. TEMP1 &#8592; π TE1.Fcpf  (<br>&nbsp;&nbsp;&nbsp;&nbsp;σ TE1.Pnr ≠ TE2.Pnr (<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ρ TE1 TRABALHA_EM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⨝ TE1.Fcpf = TE2.Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ρ TE2 TRABALHA_EM ) )<br>π Cpf, Pnome ( TEMP1 ⨝ Fcpf = Cpf FUNCIONARIO )
 
 3. EXCETO_MAIOR_DATA &#8592; π D1.Data_inicio_gerente<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( ρ D1 DEPARTAMENTO<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⨝ D1.Data_inicio_gerente < D2.Data_inicio_gerente<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ρ D2 DEPARTAMENTO )<br>MAIOR_DATA &#8592; π Data_inicio_gerente ( DEPARTAMENTO ) &#8213; EXCETO_MAIOR_DATA<br>CPF_MAIOR_DATA &#8592; π Cpf_gerente ( MAIOR_DATA * DEPARTAMENTO )<br>π Pnome ( CPF_MAIOR_DATA ⨝ Cpf_gerente = Cpf FUNCIONARIO )
 
