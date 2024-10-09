@@ -40,7 +40,7 @@ Qual o nome dos funcionários que possui o mesmo salário do "João Silva"?<br>
 
 As **FUNÇÕES AGREGADAS** usam funções matemáticas para cálculos estatísticos simples nos conjuntos do banco de dados:
 - O símbolo ℑ identifica a operação (_F Script_).
-- A funções agregadas são SOMA (SUM), MÉDIA (AVERAGE), MÁXIMO (MAXIMUM) e MÍNIMO (MINIMUM).
+- A funções agregadas são CONTA (COUNT), SOMA (SUM), MÉDIA (AVERAGE), MÁXIMO (MAXIMUM) e MÍNIMO (MINIMUM).
 - Alguns exemplos de aplicação das funções agregadas são:
   - qual a média dos salários dos funcionários?
   - qual a soma dos salários dos funcionários?
