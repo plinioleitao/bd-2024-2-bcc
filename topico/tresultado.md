@@ -34,4 +34,9 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 3. SUP_E_GER &#8592; π Cpf_gerente ( FUNCIONARIO ⋈ Cpf_supervisor=Cpf_gerente  DEPARTAMENTO )<br>π Pnome ( FUNCIONARIO ⨝ Cpf=Cpf_gerente SUP_E_GER )<br>OU<br>SUPER &#8592; π S.Cpf, S.Pnome ( ρ F (FUNCIONARIO) ⋈ F.Cpf_supervisor = S.Cpf ρ S (FUNCIONARIO) )<br>π Pnome ( SUPER ⨝ Cpf=Cpf_gerente DEPARTAMENTO )
 
+#### Avaliação em 09/10/2024
 
+
+3. EXCETO_MAIOR_DATA &#8592; π D1.Data_inicio_gerente<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( ρ D1 DEPARTAMENTO<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⨝ D1.Data_inicio_gerente < D2.Data_inicio_gerente<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ρ D2 DEPARTAMENTO )<br>MAIOR_DATA &#8592; π Data_inicio_gerente ( DEPARTAMENTO ) &#8213; EXCETO_MAIOR_DATA<br>CPF_MAIOR_DATA &#8592; π Cpf_gerente ( MAIOR_DATA * DEPARTAMENTO )<br>π Pnome ( CPF_MAIOR_DATA ⨝ Cpf_gerente = Cpf FUNCIONARIO )
+
+&nbsp;&nbsp;&nbsp;&nbsp;
