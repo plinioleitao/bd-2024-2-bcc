@@ -27,7 +27,7 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).
 
 - **Conversa com Administrador de Banco de Dados**
   - Data: 10/12/2024 (terça-feira)
-  - Local e horário: Lab INF 254 às 10:00
+  - Local e horário: Lab INF 154 às 10:00
 - ISSUE &#8212; Ao criar uma _**issue**_, selecione um dos _**templates**_:
   - **Dúvida em tópico específico**
   - **Dúvida fora do fluxo de tópicos**
