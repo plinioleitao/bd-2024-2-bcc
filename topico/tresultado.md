@@ -42,4 +42,10 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 3. EXCETO_MAIOR_DATA &#8592; π D1.Data_inicio_gerente<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;( ρ D1 DEPARTAMENTO<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⨝ D1.Data_inicio_gerente < D2.Data_inicio_gerente<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ρ D2 DEPARTAMENTO )<br>MAIOR_DATA &#8592; π Data_inicio_gerente ( DEPARTAMENTO ) &#8213; EXCETO_MAIOR_DATA<br>CPF_MAIOR_DATA &#8592; π Cpf_gerente ( MAIOR_DATA * DEPARTAMENTO )<br>π Pnome ( CPF_MAIOR_DATA ⨝ Cpf_gerente = Cpf FUNCIONARIO )
 
+#### Avaliação em 16/10/2024
+
+1. π Cod_livro, Titulo ( σ Data_devolucao = NULL" ( LIVRO * LIVRO_EMPRESTIMOS )
+
+2. LIVRO_RESUMO ( Cod_livro, Qtde_autor ) &#8592; Cod_livro ℑ CONTA Cod_livro ( LIVRO_AUTOR )<br>LIVRO_DOIS &#8592; π Cod_livro ( σ Qtde_autor >= 2 ( RESUMO_LIVRO ) )<br>USUARIO_EMPRES &#8592; π Nr_Cartao ( LIVRO_DOIS * LIVRO_EMPRESTIMOS )<br>π Nome ( USUARIO_EMPRES * USUARIO ) 
+
 &nbsp;&nbsp;&nbsp;&nbsp;
