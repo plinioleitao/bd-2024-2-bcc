@@ -48,6 +48,6 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 2. LIVRO_RESUMO ( Cod_livro, Qtde_autor ) &#8592; Cod_livro ℑ CONTA Nome_autor ( LIVRO_AUTOR )<br>LIVRO_DOIS_AUTORES &#8592; π Cod_livro ( σ Qtde_autor >= 2 ( RESUMO_LIVRO ) )<br>USUARIO_EMPRES &#8592; π Nr_Cartao ( LIVRO_DOIS_AUTORES * LIVRO_EMPRESTIMOS )<br>π Nome ( USUARIO_EMPRES * USUARIO ) 
 
-3. EMPRESTIMO_COPIA_DEZ &#8592; σ Qt_copia >= 10 ( LIVRO_EMPRESTIMOS )<br>EMPRESTIMO_RESUMO ( Cod_livro, Qtde_unid ) &#8592;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cod_livro ℑ CONTA Cod_unidade ( EMPRESTIMO_COPIA_DEZ )<br>LIVRO_DUAS_UNIDADES &#8592; π Cod_livro ( σ Qtde_unid >= 2 ( EMPRESTIMO_RESUMO )<br>π Nome ( LIVRO_DUAS_UNIDADES * LIVRO ) 
+3. LIVRO_COPIA_DEZ &#8592; σ Qt_copia >= 10 ( LIVRO_LIVROS )<br>LIVRO_RESUMO ( Cod_livro, Qtde_unid ) &#8592;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cod_livro ℑ CONTA Cod_unidade ( LIVRO_COPIA_DEZ )<br>LIVRO_DUAS_UNIDADES &#8592; π Cod_livro ( σ Qtde_unid >= 2 ( LIVRO_RESUMO )<br>π Nome ( LIVRO_DUAS_UNIDADES * LIVRO )
 
 &nbsp;&nbsp;&nbsp;&nbsp;
