@@ -1,0 +1,75 @@
+group:agricultura
+
+AGRICULTOR = {
+CodA:number,NomeA:string CidadeA:string
+1001,'Ana Maria Machado','Mogi das Cruzes'
+1002,'José de Alencar','Mogi das Cruzes'
+1003,'Manuel Bandeira','Mogi das Cruzes'
+1004,'Machado de Assis','Atibaia'
+1005,'Oswald de Andrade','Atibaia'
+1006,'Lima Barreto','São Paulo'
+1007,'Cecília Meireles','São Paulo'
+1008,'Castro Alves','Campinas'
+1009,'Monteiro Lobato','Taubaté'
+}
+
+PRODUTO = {
+CodP:number, NomeP:string,PrecoQuilo:number
+2001,'tomate',4.98
+2002,'batata',0.98
+2003,'cebola',2.98
+2004,'cenoura',1.98
+2005,'chuchu',2.49
+2006,'mandioca',1.98
+2007,'couve-flor',3.9
+2008,'quiabo',8.98
+2009,'pimentão',3.98
+2010,'repolho',1.49
+2011,'beterraba',2.49
+2012,'alface',2.98
+2013,'tomate cereja',5.98
+}
+
+RESTAURANTE = {
+CodR:number,NomeR:string, CidadeR:string
+3001,'Brasileirinho','São Paulo'
+3002,'Sabor de Minas','Santo André'
+3003,'Bom Gosto','Atibaia'
+3004,'Panela de Ouro','São Paulo'
+3005,'RU-USP','São Paulo'
+3006,'Bom de Garfo','Osasco'
+3007,'Sabores do Interior','Osasco'
+3008,'Brasil a Gosto','São Caetano'
+3009,'Prato-Cheio','Diadema'
+3010,'A Todo Sabor','Mogi das Cruzes'
+}
+ENTREGA = {
+CodA:number, CodP:number, CodR:number, DataEntrega:date, QtdeQuilos:number
+1001,2005,3010,2014-10-01,15
+1004,2002,3005,2014-10-01,40
+1006,2011,3002,2014-10-03,37
+1003,2003,3009,2014-10-03,21
+1004,2008,3008,2014-10-04,12
+1007,2008,3003,2014-10-04,45
+1005,2002,3002,2014-10-04,60
+1005,2001,3002,2014-10-05,36
+1002,2002,3010,2014-10-05,28
+1002,2007,3006,2014-10-06,15
+1004,2010,3006,2014-10-08,52
+1007,2003,3004,2014-10-10,45
+1002,2005,3002,2014-10-10,38
+1002,2003,3004,2014-10-10,35
+1004,2005,3002,2014-10-10,25
+1005,2011,3002,2014-10-14,30
+1001,2003,3002,2014-10-17,57
+1003,2002,3010,2014-10-18,10
+1003,2012,3006,2014-10-18,36
+1007,2007,3006,2014-10-19,42
+1006,2003,3001,2014-10-22,28
+1002,2003,3003,2014-10-22,45
+1001,2003,3005,2014-10-22,37
+1007,2003,3006,2014-10-22,51
+1003,2003,3007,2014-10-22,24
+1003,2003,3008,2014-10-22,36
+1004,2003,3010,2014-10-22,40
+}

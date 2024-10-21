@@ -1,0 +1,24 @@
+group:bar
+
+VENDE = {
+Bar:string Cerveja:string
+'Pipoca','Skol'
+'Pipoca','Brahma'
+'ParaTodos','Antarctica'
+'ParaTodos','Skol'
+'Colegas','Sol'
+}
+
+GOSTA = {
+Pessoa:string Cerveja:string
+'Marcos','Skol'
+'Marcos','Brahma'
+'Marcos','Antarctica'
+'Paulo','Sol'
+'Paulo','Antarctica'
+'Bia','Antarctica'
+'Brena','Skol'
+'Brena','Brahma'
+'Brena','Sol'
+'Ricardo','Skol'
+}
