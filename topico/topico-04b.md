@@ -1,7 +1,7 @@
 ## [Tópico 04b] - Requisitos de Dados - `BD Movimentação de Produtos`
 ###### *by Prof. Plinio Sa Leitao-Junior (INF/UFG)*
 
-### Evento de produtos _vs._ Serviço _vs._ Software _vs._ Banco de Dados
+### Evento de produto _vs._ Serviço _vs._ Software _vs._ Banco de Dados
 
 :sparkles: **EVENTO DE PRODUTO**<br>
 `Eventos de produtos` são os eventos que ocasionam a entrada de produto (exemplo: evento de aquisição de produto), a saída de produto (exemplo: evento de venda de produto) e a transferência de produto (exemplo: evento de transferência de produto entre unidades de armazenamento):
