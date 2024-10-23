@@ -1,3 +1,4 @@
+[Tópico 20](./topico-20.md) - SQL - DML (Data Manipulation Language): Junção, Junção Natural, Valor nulo, Junção Externa<br>
 [Tópico 19](./topico-19.md) - SQL - DML (_Data Manipulation Language_): Primeiros comandos<br>
 [Tópico 18](./topico-18.md) - SQL - Introdução, DDL (_Data Definition Language_)<br>
 [Tópico 17b](./topico-17b.md) - Álgebra Relacional - Ferramenta RelaX (parte 2)<br>

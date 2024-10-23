@@ -11,10 +11,10 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).
 
 ### `Tópicos ativos ...`
 
-- [Tópico 17a](./topico/topico-17a.md)
-- [Tópico 17b](./topico/topico-17b.md)
+- [Tópico 04b](./topico/topico-04b.md)
 - [Tópico 18](./topico/topico-18.md)
 - [Tópico 19](./topico/topico-19.md)
+- [Tópico 20](./topico/topico-20.md)
 - [Todos os tópicos](./topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
