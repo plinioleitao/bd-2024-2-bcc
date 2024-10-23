@@ -50,4 +50,14 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 3. LIVRO_COPIA_DEZ &#8592; σ Qt_copia >= 10 ( LIVRO_COPIAS )<br>LIVRO_RESUMO ( Cod_livro, Qtde_unid ) &#8592;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cod_livro ℑ CONTA Cod_unidade ( LIVRO_COPIA_DEZ )<br>LIVRO_DUAS_UNIDADES &#8592; π Cod_livro ( σ Qtde_unid >= 2 ( LIVRO_RESUMO )<br>π Nome ( LIVRO_DUAS_UNIDADES * LIVRO )
 
+#### Avaliação em 23/10/2024
+
+1. π Pessoa ( σ Bar = "Pipoca" ( VENDE * GOSTA ) )
+
+2. PIPOCA &#8592; σ Bar = "Pipoca" ( VENDE * GOSTA )<br>PIPOCA_RESUMO ( Pessoa, Qtde_cerveja ) &#8592; Pessoa Dnr ℑ CONTA Cerveja ( PIPOCA )<br>
+π Pessoa ( σ Qtde_cerveja >= 2 ( PIPOCA_RESUMO ) )
+
+3. PESSOA_PIPOCA &#8592; π Pessoa ( σ Bar = "Pipoca" ( VENDE * GOSTA ) )<br>π Pessoa ( GOSTA ) – PESSOA_PIPOCA
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;
