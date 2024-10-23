@@ -13,9 +13,6 @@
 
 :sparkles: **BANCO DE DADOS**<br>
 
-
-é qualquer conteúdo de informação, semelhante a um livro, existindo ou não sua versão em papel, cujo conteúdo é codificado em formato digital, que pode ser lido em equipamentos eletrônicos.
-
 ### Bibliografia
 
 [1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
