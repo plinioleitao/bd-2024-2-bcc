@@ -4,7 +4,7 @@
 ### Evento de produtos _vs._ Serviço _vs._ Software _vs._ Banco de Dados
 
 :sparkles: **EVENTOS DE PRODUTOS**<br>
-`Eventos de produtos` são os eventos que ocasionam a entrada de produto (exemplo: evento de aquisição de produto), a saída de produto (exemplo: evento de venda de produto) e a transferência de produto (exemplo: evento de transferência de produto entre unidades de armazenamento) de produtos:
+`Eventos de produtos` são os eventos que ocasionam a entrada de produto (exemplo: evento de aquisição de produto), a saída de produto (exemplo: evento de venda de produto) e a transferência de produto (exemplo: evento de transferência de produto entre unidades de armazenamento):
 - Há várias unidades de armazenamento de produtos.
 - Uma unidade de armazenamento pode ser pensada como uma loja física (ou virtual), ou mesmo um 'depósito/armazém', dotado de estratégias à otimização de distribução de produtos entre as unidades de armazenamento. 
 
