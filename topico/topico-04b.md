@@ -6,7 +6,7 @@
 :sparkles: **EVENTO DE PRODUTO**<br>
 `Eventos de produtos` são os eventos que ocasionam a entrada de produto (exemplo: evento de aquisição de produto), a saída de produto (exemplo: evento de venda de produto) e a transferência de produto (exemplo: evento de transferência de produto entre unidades de armazenamento):
 - Há várias unidades de armazenamento de produtos.
-- Uma unidade de armazenamento pode ser pensada como uma loja física (ou virtual), ou mesmo um 'depósito/armazém', dotado de estratégias à otimização de distribução de produtos entre as unidades de armazenamento. 
+- Uma unidade de armazenamento pode ser pensada como uma loja física (ou virtual), ou mesmo um 'depósito/armazém', o último é vocacionado a estratégias de otimização [da logística] de distribução de produtos entre as unidades de armazenamento. 
 
 :sparkles: **SERVIÇO**<br>
 `Movimentação de produtos` é um serviço prestado àqueles que desejam ter a facilidade e a praticidade para a percepção dos vários de eventos, que compõem e explicam como produtos são movimentados em uma rede unidades de armazenamento.
