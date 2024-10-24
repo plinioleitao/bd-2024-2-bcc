@@ -17,6 +17,19 @@ Para viabilizar o serviço `Movimentação de Produtos`, vários _softwares_ ser
 :sparkles: **BANCO DE DADOS**<br>
 O fornecimento do serviço requer um banco de dados, capaz de viabilizar as funcionalidades dos diversos softwares utilizados.
 
+<hr style="border:2px solid blue">
+
+### Perfis de Usuário
+
+:star2: `Agente de venda`<br>
+O usuário que primariamente utiliza o serviço é chamado de AGENTE DE VENDA (pessoa física), aquele interessado na em ter produtos disponíveis às ações de venda. Basicamente, representa a pessoa que utiliza o serviço para tornar realizável vendas, mas atento ao custo da disponibilidade de produtos em unidades de armazenámento.
+
+:star2: `Fornecedor`<br>
+O usuário que provisiona os produtos é chamado FORNECEDOR, visando a incorporá-los ao acervo das unidades de armazenámento.
+
+:star2: `Gestor`<br>
+O usuário responsável pela gestão administrativa e financeira do serviço é denominado GESTOR.
+
 ### Bibliografia
 
 [1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
