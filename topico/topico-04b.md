@@ -25,7 +25,7 @@ O fornecimento do serviço requer um banco de dados, capaz de viabilizar as func
 O usuário que primariamente utiliza o serviço é chamado de AGENTE DE VENDA (pessoa física), aquele interessado em ter estoques de produtos às ações de venda. Basicamente, representa a pessoa que utiliza o serviço para tornar realizável vendas, mas atento ao custo da disponibilidade de produtos em unidades de armazenamento.
 
 :star2: `Fornecedor`<br>
-O usuário que provisiona os produtos é chamado FORNECEDOR, visando a incorporá-los ao acervo das unidades de armazenámento.
+O usuário que provisiona os produtos é chamado FORNECEDOR, visando a incorporá-los ao acervo das unidades de armazenamento.
 
 :star2: `Gestor`<br>
 O usuário responsável pela gestão administrativa e financeira do serviço é denominado GESTOR.
