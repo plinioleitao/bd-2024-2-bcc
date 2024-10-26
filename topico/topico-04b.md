@@ -21,7 +21,7 @@ O fornecimento do serviço requer um banco de dados, capaz de viabilizar as func
 
 ### Tipos de Evento
 
-Qualquer evento envolve Produto e Unidade de Armazenamento. Noutras palavras, um evento refere-se <ins>ao acréscimo ou ao decréscimo</ins> de uma quantidade de um produto em uma unidade de armazenamento.
+Qualquer evento envolve _produto_ e _unidade de armazenamento_. Noutras palavras, um evento refere-se <ins>ao acréscimo ou ao decréscimo</ins> de uma quantidade de um produto em uma unidade de armazenamento.
 
 Os **tipos de evento** são:<br>
 &#x270D; **`COMPRA_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à AQUISIÇÃO realizada a partir de um <ins>fornecedor</ins>, ou seja, uma compra para a reposição de estoque.<br>
