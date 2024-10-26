@@ -25,12 +25,14 @@ Qualquer evento envolve Produto e Unidade de Armazenamento. Noutras palavras, um
 
 Os **tipos de evento** são:<br>
 &#x270D; **`COMPRA_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à aquisição realizada a partir de um <ins>fornecedor</ins>, ou seja, uma compra para a reposição de estoque.<br>
-&#x270D; **`MOVTO_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à movimentação de produtos entre unidades de armazenamento.<br>
-&#x270D; **`MOVTO_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à movimentação de produtos entre unidades de armazenamento.<br>
+&#x270D; **`TRANSFER_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à transferência de produtos entre unidades de armazenamento.<br>
+&#x270D; **`TRANSFER_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à transferência de produtos entre unidades de armazenamento.<br>
 &#x270D; **`VENDA_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à venda do produto para um <ins>cliente</ins>.<br>
 &#x270D; **`DESCARTE_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente ao descarte do produto, pois o mesmo não tem qualidade para a venda.<br>
 &#x270D; **`AJUSTE_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à correção de estoque do produto na unidade de armazenamento.<br>
 &#x270D; **`AJUSTE_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à correção de estoque do produto na unidade de armazenamento.<br>
+
+Observe que, em uma transação de transferência de produtos entre duas unidades de armazenamento, dois eventos são registrados: TRANSFER_SAIDA e TRANSFER_ENTRADA. Para os demais tipos de evento, a transação envolve um único evento.
 
 <hr style="border:2px solid blue">
 
