@@ -9,7 +9,7 @@
 - Uma unidade de armazenamento pode ser pensada como uma loja física (ou virtual), ou mesmo um 'depósito/armazém' (célula de distribuição), o último é vocacionado a estratégias de otimização [da logística] de distribução de produtos entre as unidades de armazenamento. 
 
 :sparkles: **SERVIÇO**<br>
-`Movimentação de Produtos` é um serviço prestado àqueles que desejam ter a facilidade e a praticidade para a percepção de eventos, os quais compõem e explicam como produtos são movimentados em uma rede unidades de armazenamento. Noutras palavras, o serviço fornece suporte ao acompanhamento e à administração da movimentação de produtos.
+`Movimentação de Produtos` é um serviço prestado àqueles que desejam ter a facilidade e a praticidade para a percepção de eventos, os quais compõem e explicam como produtos são movimentados em uma rede de unidades de armazenamento. Noutras palavras, o serviço fornece suporte ao acompanhamento e à administração da movimentação de produtos.
 
 :sparkles: **SOFTWARE**<br>
 Para viabilizar o serviço `Movimentação de Produtos`, vários _softwares_ serão necessários, tais como: _software_ para a aquisição de produtos (exemplo: comprar produtos para vendê-los), _software_ para a venda de produtos, dentre outros.
