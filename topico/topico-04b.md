@@ -24,11 +24,13 @@ O fornecimento do serviço requer um banco de dados, capaz de viabilizar as func
 Qualquer evento envolve Produto e Unidade de Armazenamento. Noutras palavras, um evento refere-se <ins>ao acréscimo ou ao decréscimo</ins> de uma quantidade de um produto em uma unidade de armazenamento.
 
 Os **tipos de evento** são:<br>
-&#x270D; **`COMPRA_ENTRADA`**: Uma certa quantidade de um produto é <ins>acrescida</ins> para uma unidade de armazenamento, pertinente à aquisição realizada a partir de um <ins>fornecedor</ins>, ou seja, uma compra para a reposição de estoque.<br>
-&#x270D; **`MOVTO_SAIDA`**: Uma certa quantidade de um produto é <ins>decrescida</ins> de uma unidade de armazenamento, pertinente à movimentação de produtos entre unidades de armazenamento.<br>
-&#x270D; **`MOVTO_ENTRADA`**: Uma certa quantidade de um produto é <ins>acrescida</ins> para uma unidade de armazenamento, pertinente à movimentação de produtos entre unidades de armazenamento.
-&#x270D; **`VENDA_SAIDA`**: Uma certa quantidade de um produto é <ins>decrescida</ins> de uma unidade de armazenamento, pertinente à venda do produto para um <ins>cliente</ins>.<br>
-&#x270D; **`DESCARTE_SAIDA`**: Uma certa quantidade de um produto é <ins>decrescida</ins> de uma unidade de armazenamento, pertinente ao descarte do produto, pois o mesmo não tem qualidade para a venda.<br>
+&#x270D; **`COMPRA_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à aquisição realizada a partir de um <ins>fornecedor</ins>, ou seja, uma compra para a reposição de estoque.<br>
+&#x270D; **`MOVTO_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à movimentação de produtos entre unidades de armazenamento.<br>
+&#x270D; **`MOVTO_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à movimentação de produtos entre unidades de armazenamento.<br>
+&#x270D; **`VENDA_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à venda do produto para um <ins>cliente</ins>.<br>
+&#x270D; **`DESCARTE_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente ao descarte do produto, pois o mesmo não tem qualidade para a venda.<br>
+&#x270D; **`AJUSTE_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à correção de estoque do produto na unidade de armazenamento.<br>
+&#x270D; **`AJUSTE_SAIDA`**: Uma certa quantidade de um produto é **decrescida** de uma unidade de armazenamento, pertinente à correção de estoque do produto na unidade de armazenamento.<br>
 
 <hr style="border:2px solid blue">
 
