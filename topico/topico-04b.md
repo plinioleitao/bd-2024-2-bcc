@@ -34,7 +34,7 @@ Os **tipos de evento** são:<br>
 &#x270D; **`DEVOLV_ENTRADA`**: Uma certa quantidade de um produto é **acrescida** para uma unidade de armazenamento, pertinente à DEVOLUÇÃO de produto por um <ins>cliente</ins>.
 
 Vale um realce para alguns tipos de evento:<br>
-&#9745; Uma devolução requer atributos específicos, tais como data, motivo da devolução (classificação) e descrição.<br> 
+&#9745; Uma devolução requer atributos específicos, tais como motivo da devolução (classificação) e descrição.<br> 
 &#9745; Em uma transação de transferência de produtos entre duas unidades de armazenamento, dois eventos são registrados: TRANSFER_SAIDA e TRANSFER_ENTRADA. Para os demais tipos de evento, a transação envolve um único evento.
 
 <hr style="border:2px solid blue">
