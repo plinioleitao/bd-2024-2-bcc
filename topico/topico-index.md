@@ -1,3 +1,4 @@
+[Tópico 21](./topico-21.md) - SQL - DML (Data Manipulation Language): Funções Agregadas, Agrupamento de dados, Ordenação de Dados<br>
 [Tópico 20](./topico-20.md) - SQL - DML (Data Manipulation Language): Junção, Junção Natural, Valor nulo, Junção Externa<br>
 [Tópico 19](./topico-19.md) - SQL - DML (_Data Manipulation Language_): Primeiros comandos<br>
 [Tópico 18](./topico-18.md) - SQL - Introdução, DDL (_Data Definition Language_)<br>
@@ -19,7 +20,7 @@
 [Tópico 06b](./topico-06b.md) - Sistema gerenciador de banco de dados (parte 2)<br>
 [Tópico 06a](./topico-06a.md) - Sistema gerenciador de banco de dados (parte 1)<br>
 [Tópico 05](./topico-05.md) - Dados e metadados<br>
-[Tópico 04b](./topico-04b.md) - Requisitos de Dados - `BD Movimentação de Produtos`<br>
+[Tópico 04b](./topico-04b.md) - Requisitos de Dados - ~~BD Prontuário do Paciente~~, ~~BD Reserva de passagens aéreas~~, DB Controle de estoque de comércio de produtos, ~~BD Gerência de obras de construção civil~~, ...<br>
 [Tópico 04a](./topico-04a.md) - Requisitos de Dados - BD Empresa<br>
 [Tópico 03](./topico-03.md) - _Checklist_ de conceitos básicos<br>
 [Tópico 02](./topico-02.md) - O que é Banco de Dados?<br>
