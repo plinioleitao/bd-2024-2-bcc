@@ -37,6 +37,8 @@ Vale um realce para alguns tipos de evento:<br>
 &#9745; Uma devolução requer atributos específicos, tais como motivo da devolução (classificação) e descrição.<br> 
 &#9745; Em uma transação de transferência de produtos entre duas unidades de armazenamento, dois eventos são registrados: TRANSFER_SAIDA e TRANSFER_ENTRADA. Para os demais tipos de evento, a transação envolve um único evento.
 
+Vale sobressair que cada produto possui quantidades mínima e máxima por unidade de armazenamento. Tal define o estoque planejado do produto na unidade de armazenamento.
+
 <hr style="border:2px solid blue">
 
 ### Perfis de Usuário
@@ -54,9 +56,17 @@ O usuário responsável pela gestão administrativa e financeira do serviço é 
 
 ### Demandas Informacionais
 
-Qual a quantidade do produto X na unidade de armazenamento Z ?
-Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento Z ?
-Que produtos possuem maior quantidade de devolução pelos clientes no período W ?
+Cliente C
+Unidade de armazenamento Z<br>
+Produto X<br>
+Período W (intervalo fechado entre duas data)<br>
+
+Qual a quantidade do produto X na unidade de armazenamento Z ?<br>
+Quais os produtos na unidade de armazenamento Z que estão fora da faixa de estoque previsto ?<br>
+Quais os produtos na unidade de armazenamento Z que ficaram fora da faixa de estoque previsto no período W ?<br>
+Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento Z ?<br>
+Que produtos possuem maior quantidade de devolução pelos clientes no período W ?<br>
+Que cliente teve maior quantidade de produtos devolvidos mo período W?
 
 :star2: `Vendedor`<br>
 
