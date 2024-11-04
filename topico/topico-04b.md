@@ -66,7 +66,13 @@ Quais os produtos na unidade de armazenamento Z que estão fora da faixa de esto
 Quais os produtos na unidade de armazenamento Z que ficaram fora da faixa de estoque previsto no período W ?<br>
 Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento Z ?<br>
 Que produtos possuem maior quantidade de devolução pelos clientes no período W ?<br>
-Que cliente teve maior quantidade de produtos devolvidos mo período W?
+Que cliente teve maior quantidade de produtos devolvidos mo período W ?<br>
+Qual a quantidade de um produto em todas as unidades de armazenamento ?<br>
+Qual o histórico de movimentação do produto X ?
+Qual unidade de armazenamento possui a maior quantidade do produto X ?<br>
+Quais unidades de armazenamento possuem o produto X disponível ?<br>
+
+
 
 :star2: `Vendedor`<br>
 
