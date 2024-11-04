@@ -139,7 +139,7 @@ A quantidade de _tuplas_ retornadas pelas execuções dos comandos (C1), (C2) e 
 &nbsp;&nbsp;(a) zero, um e dois.<br>
 &nbsp;&nbsp;(b) um, dois e um.<br>
 &nbsp;&nbsp;(c) um, dois, dois.<br>
-&nbsp;&nbsp;(d) zero, dois e dois.<br>
+&nbsp;&nbsp;(d) zero, dois e um.<br>
 &nbsp;&nbsp;(e) dois, dois e um.<br>
 
 2. A partir da [*ilustração para o BD Empresa*](../media/fig-mr-2.jpg), escreva a seguinte consulta em SQL (use JUNÇÃO EXTERNA):<br>
