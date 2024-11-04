@@ -54,16 +54,15 @@ O usuário responsável pela gestão administrativa e financeira do serviço é 
 
 ### Demandas Informacionais
 
-:star2: `Vendedor`<br>
 Qual a quantidade do produto X na unidade de armazenamento Z ?
+Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento Z ?
+Que produtos possuem maior quantidade de devolução pelos clientes no período W ?
 
+:star2: `Vendedor`<br>
 
 :star2: `Fornecedor`<br>
 
-
 :star2: `Gestor`<br>
-Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento Z ?
-Que produtos possuem maior quantidade de devolução pelos clientes no período W ?
 
 <hr style="border:2px solid blue">
 
