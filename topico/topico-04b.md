@@ -56,21 +56,21 @@ O usuário responsável pela gestão administrativa e financeira do serviço é 
 
 ### Demandas Informacionais
 
-Cliente C
-Unidade de armazenamento Z<br>
-Produto X<br>
+Cliente C<br>
+Unidade de armazenamento U<br>
+Produto P<br>
 Período W (intervalo fechado entre duas data)<br>
 
-Qual a quantidade do produto X na unidade de armazenamento Z ?<br>
-Quais os produtos na unidade de armazenamento Z que estão fora da faixa de estoque previsto ?<br>
-Quais os produtos na unidade de armazenamento Z que ficaram fora da faixa de estoque previsto no período W ?<br>
-Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento Z ?<br>
+Qual a quantidade do produto P na unidade de armazenamento U ?<br>
+Quais os produtos na unidade de armazenamento U que estão fora da faixa de estoque previsto ?<br>
+Quais os produtos na unidade de armazenamento U que ficaram fora da faixa de estoque previsto no período W ?<br>
+Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento U ?<br>
 Que produtos possuem maior quantidade de devolução pelos clientes no período W ?<br>
 Que cliente teve maior quantidade de produtos devolvidos mo período W ?<br>
 Qual a quantidade de um produto em todas as unidades de armazenamento ?<br>
-Qual o histórico de movimentação do produto X ?
-Qual unidade de armazenamento possui a maior quantidade do produto X ?<br>
-Quais unidades de armazenamento possuem o produto X disponível ?<br>
+Qual o histórico de movimentação do produto P ?
+Qual unidade de armazenamento possui a maior quantidade do produto P ?<br>
+Quais unidades de armazenamento possuem o produto P disponível ?<br>
 
 
 
