@@ -62,13 +62,13 @@ Produto P<br>
 Período W (intervalo fechado entre duas data)<br>
 
 Qual a quantidade do produto P na unidade de armazenamento U ?<br>
-Quais os produtos na unidade de armazenamento U que estão fora da faixa de estoque previsto ?<br>
+Quais os produtos na unidade de armazenamento U que estão fora da faixa de estoque previsto na unidade ?<br>
 Quais os produtos na unidade de armazenamento U que ficaram fora da faixa de estoque previsto no período W ?<br>
 Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento U ?<br>
 Que produtos possuem maior quantidade de devolução pelos clientes no período W ?<br>
-Que cliente teve maior quantidade de produtos devolvidos mo período W ?<br>
-Qual a quantidade de um produto em todas as unidades de armazenamento ?<br>
-Qual o histórico de movimentação do produto P ?
+Que cliente teve maior quantidade de produtos devolvidos no período W ?<br>
+Qual a quantidade do produto P em cada unidades de armazenamento ?<br>
+Qual o histórico de movimentação do produto P na unidade de armazenamento U ?<br>
 Qual unidade de armazenamento possui a maior quantidade do produto P ?<br>
 Quais unidades de armazenamento possuem o produto P disponível ?<br>
 
