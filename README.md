@@ -6,8 +6,8 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).
 
 ### `Para refletir...`
 
-1. Qual a distinção entre _relação_ e _tabela_ ?
-1. Como dá-se a associação (relacionamento) entre dados em esquemas relacionais?
+1. Qual a distinção entre _subconsulta independente_ e _subconsulta correlata_ ?
+1. É possível implementar todas as operações da _álgebra relacional canônica_ em SQL ?
 
 ### `Tópicos ativos ...`
 
