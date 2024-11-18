@@ -19,7 +19,7 @@ O fornecimento do serviço requer um banco de dados, capaz de viabilizar as func
 
 <hr style="border:2px solid blue">
 
-### Tipos de Evento
+### Evento _vs._ Tipo de Evento
 
 Qualquer evento envolve _produto_ e _unidade de armazenamento_, bem como a data do evento. Noutras palavras, um evento refere-se <ins>ao acréscimo ou ao decréscimo</ins> de uma quantidade de um produto em uma unidade de armazenamento.
 
