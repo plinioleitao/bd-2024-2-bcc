@@ -1,3 +1,6 @@
+[Tópico 29](./topico-29.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
+[Tópico 27](./topico-27.md) - Modelo Entidade Relacionamento (MER) - Tipo de entidade fraca<br>
+[Tópico 26](./topico-26.md) - Modelo Entidade Relacionamento (MER) - Demanda informacional<br>
 [Tópico 25](./topico-25.md) - Modelo Entidade Relacionamento (MER) - Primeiros passos e _Checklist_<br>
 [Tópico 24](./topico-24.md) - SQL - DML (_Data Manipulation Language_): Subconsulta (parte 2)<br>
 [Tópico 23](./topico-23.md) - SQL - DML (_Data Manipulation Language_): Subconsulta (parte 1)<br>
