@@ -67,5 +67,19 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 
 3. SELECT Pnome, Unome<br>FROM FUNCIONARIO<br>WHERE Cpf IN (<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM DEPENDENTE<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUP BY Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAVING COUNT(\*) > 1 )<br>AND Cpf IN (<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SELECT Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FROM TRABALHA_EM<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUP BY Fcpf<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HAVING COUNT(*) > 1 )
 
+#### Avaliação em 27/11/2024
+
+|Quais as restrições para ...|Resposta|Sentença|
+|-|:-:|-|
+|PROPRIETÁRIO em "Contacta"|10|_Um proprietário contacta de um a vários corretores_|
+|CORRETOR em "Contacta"|09|_Um corretor é contactado por de zero a vários proprietários_|
+|CORRETOR em "Atende"|09|_Um corretor atende de zero a vários inquilinos_|
+|INQUILINO em "Atende"|06|_Um inquilino é atendido necessariamente por um e somente um corretor_|
+|INQUILINO em Aluga"|06|_Um inquilino aluga um e somente um imóvel_|
+|IMÓVEL em "Aluga"|05|_Um imóvel é alugado por zero ou um inquilino_|
+|IMÓVEL em "Possui"|06|_Um imóvel possui um e somente um proprietário_|
+|PROPRIETÁRIO em "Possui"|10|_Um proprietário possui de um a vários imóveis_|
+
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;
