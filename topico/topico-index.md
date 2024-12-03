@@ -1,3 +1,5 @@
+[Tópico 32](./topico-32.md) - Modelo Entidade Relacionamento (MER) - Generalização/Especialização<br>
+[Tópico 31](./topico-31.md) - Modelo Entidade Relacionamento (MER) - Decisões de Projeto<br>
 [Tópico 29](./topico-29.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico 28](./topico-28.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico 27](./topico-27.md) - Modelo Entidade Relacionamento (MER) - Tipo de entidade fraca<br>

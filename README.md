@@ -6,21 +6,15 @@ O plano da disciplina está disponível [aqui](./media/bd-2024-2-bcc-plano.pdf).
 
 ### `Para refletir...`
 
-1. Qual a distinção entre _subconsulta independente_ e _subconsulta correlata_ ?
-1. É possível implementar em SQL todas as operações da _álgebra relacional canônica_ ?
+1. Como mapear uma hierarquia de generalização/especialização para o esquema lógico ?
 
 ### `Tópicos ativos ...`
 
 - [Tópico 04b](./topico/topico-04b.md)
-- [Tópico 21](./topico/topico-21.md)
-- [Tópico 22](./topico/topico-22.md)
-- [Tópico 23](./topico/topico-23.md)
-- [Tópico 24](./topico/topico-24.md)
-- [Tópico 25](./topico/topico-25.md)
-- [Tópico 26](./topico/topico-26.md)
-- [Tópico 27](./topico/topico-27.md)
 - [Tópico 28](./topico/topico-28.md)
 - [Tópico 29](./topico/topico-29.md)
+- [Tópico 31](./topico/topico-31.md)
+- [Tópico 32](./topico/topico-32.md)
 - [Todos os tópicos](./topico/topico-index.md)
 - [Análise das atividades](./topico/tresultado.md)
 
