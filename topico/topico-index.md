@@ -1,3 +1,6 @@
+[Tópico 36](./topico-36.md) - Mapeamento MER para MR (parte 2)<br>
+[Tópico 35](./topico-35.md) - Mapeamento MER para MR (parte 1)<br>
+[Tópico 34](./topico-34.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
 [Tópico 32](./topico-32.md) - Modelo Entidade Relacionamento (MER) - Generalização/Especialização<br>
 [Tópico 31](./topico-31.md) - Modelo Entidade Relacionamento (MER) - Decisões de Projeto<br>
 [Tópico 29](./topico-29.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
