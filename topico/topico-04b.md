@@ -52,6 +52,8 @@ O usuário que provisiona os produtos é chamado FORNECEDOR, visando a incorpor�
 :star2: `Gestor`<br>
 O usuário responsável pela gestão administrativa e financeira do serviço é denominado GESTOR.
 
+<img src="../media/projeto-der.jpg" width="400">
+
 <hr style="border:2px solid blue">
 
 ### Demandas Informacionais
@@ -71,8 +73,6 @@ Qual a quantidade do produto P em cada unidades de armazenamento ?<br>
 Qual o histórico de movimentação do produto P na unidade de armazenamento U ?<br>
 Qual unidade de armazenamento possui a maior quantidade do produto P ?<br>
 Quais unidades de armazenamento possuem o produto P disponível ?<br>
-
-
 
 :star2: `Vendedor`<br>
 
