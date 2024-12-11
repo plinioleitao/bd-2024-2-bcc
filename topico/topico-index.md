@@ -1,3 +1,5 @@
+[Tópico 38](./topico-38.md) - Mapeamento MER para MR (parte 4)<br>
+[Tópico 37](./topico-37.md) - Mapeamento MER para MR (parte 3)<br>
 [Tópico 36](./topico-36.md) - Mapeamento MER para MR (parte 2)<br>
 [Tópico 35](./topico-35.md) - Mapeamento MER para MR (parte 1)<br>
 [Tópico 34](./topico-34.md) - Modelo Entidade Relacionamento (MER) - Exercício<br>
