@@ -80,6 +80,15 @@ Clique [AQUI](../media/bd-2024-2-bcc-resumo.pdf) para ver as notas.
 |IMÓVEL em "Possui"|06|_Um imóvel possui um e somente um proprietário_|
 |PROPRIETÁRIO em "Possui"|10|_Um proprietário possui de um a vários imóveis_|
 
+#### Avaliação em 11/12/2024
 
+|Esquema Lógico|
+|-|
+|ALUNO (MatrAluno, Nome, DataIngr)<br>ALUNO (MatrAluno) IS PRIMARY KEY|
+|CURSO (NumCurso, Nome, Diretor, Creditos)<br>CURSO (NumCurso) IS PRIMARY KEY|
+|DISCIPLINA (CodDisciplina, Descricao, Ementa)<br>DISCIPLINA (CodDisciplina) IS PRIMARY KEY|
+|PROFESSOR (MatrProfessor, Nome, NumCurso)<br>PROFESSOR (MatrProfessor) IS PRIMARY KEY<br>PROFESSOR (NumCurso) REFERENCES CURSO (NumCurso)|
+|TURMA (CodDisciplina, CodTurma, Sem, Horario, Sala, MatrProfessor)<br>TURMA (CodDisciplina, CodTurma, Sem) IS PRIMARY KEY<br>TURMA (CodDisciplina) REFERENCES DISICPLINA (CodDisciplina)<br>TURMA (MatrProfessor) REFERENCES PROFESSOR (MatrProfessor)|
+|ALUNO_TURMA (MatrAluno, CodDisciplina, CodTurma, Sem, Media)<br>ALUNO_TURMA (MatrAluno, CodDisciplina, CodTurma, Sem) IS PRIMARY KEY<br>ALUNO_TURMA (MatrAluno) REFERENCES ALUNO (MatrAluno)<br>ALUNO_TURMA (CodDisciplina, CodTurma, Sem) REFERENCES TURMA (CodDisciplina, CodTurma, Sem)|
 
 &nbsp;&nbsp;&nbsp;&nbsp;
