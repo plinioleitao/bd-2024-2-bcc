@@ -52,10 +52,6 @@ O usuário que provisiona os produtos é chamado FORNECEDOR, visando a incorpor�
 :star2: `Gestor`<br>
 O usuário responsável pela gestão administrativa e financeira do serviço é denominado GESTOR.
 
-<img src="../media/projeto-der.jpg" width="400">
-
-<hr style="border:2px solid blue">
-
 ### Demandas Informacionais
 
 Cliente C<br>
@@ -81,6 +77,19 @@ Quais unidades de armazenamento possuem o produto P disponível ?<br>
 :star2: `Gestor`<br>
 
 <hr style="border:2px solid blue">
+
+<img src="../media/projeto-der.jpg" width="400">
+
+<hr style="border:2px solid blue">
+
+|Esquema Lógico|
+|-|
+|TIPO_EVENTO (Codigo, Nome, EntradaSaida)<br>TIPO_EVENTO (Codigo) IS PRIMARY KEY|
+|PRODUTO (Codigo, Preco, Nome)<br>PRODUTO (Codigo) IS PRIMARY KEY|
+|UNIDADE (Codigo, Nome, Endereco)<br>UNIDADE (Codigo) IS PRIMARY KEY|
+|FORNECEDOR (CNPJ, Nome, Endereco)<br>FORNECEDOR (CNPJ) IS PRIMARY KEY|
+|CLIENTE (CPF, Nome, Endereco)<br>CLIENTE (CPF) IS PRIMARY KEY|
+||
 
 ### Bibliografia
 
