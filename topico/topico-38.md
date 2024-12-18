@@ -30,9 +30,9 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|CLIENTE (CodCli, Fone)<br>CLIENTE (CodCli) IS PRIMARY KEY|
-|PESSOAJURIDICA (CodCli, CGC, RazaoSocial)<br>PESSOAJURIDICA (CodCli) IS PRIMARY KEY<br>PESSOAJURIDICA (CodCli) REFERENCES CLIENTE (CodCli)|
-|PESSOAFISICA (CodCli, CPF, Nome, DataNasc, Sexo)<br>PESSOAFISICA (CodCli) IS PRIMARY KEY<br>PESSOAFISICA (CodCli) REFERENCES CLIENTE (CodCli)|
+|CLIENTE (CodPes, Fone)<br>CLIENTE (CodPes) IS PRIMARY KEY|
+|PESSOAJURIDICA (CodPes, CGC, RazaoSocial)<br>PESSOAJURIDICA (CodPes) IS PRIMARY KEY<br>PESSOAJURIDICA (CodPes) REFERENCES CLIENTE (CodPes)|
+|PESSOAFISICA (CodPes, CPF, Nome, DataNasc, Sexo)<br>PESSOAFISICA (CodPes) IS PRIMARY KEY<br>PESSOAFISICA (CodPes) REFERENCES CLIENTE (CodPes)|
 
 #### OPÇÃO 2: Relações múltiplas - restrito a subclasses
 
@@ -46,8 +46,8 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|PESSOAJURIDICA (CodCli, Fone, CGC, RazaoSocial)<br>PESSOAJURIDICA (CodCli) IS PRIMARY KEY|
-|PESSOAFISICA (CodCli, Fone, CPF, Nome, DataNasc, Sexo)<br>PESSOAFISICA (CodCli) IS PRIMARY KEY|
+|PESSOAJURIDICA (CodPes, Fone, CGC, RazaoSocial)<br>PESSOAJURIDICA (CodPes) IS PRIMARY KEY|
+|PESSOAFISICA (CodPes, Fone, CPF, Nome, DataNasc, Sexo)<br>PESSOAFISICA (CodPes) IS PRIMARY KEY|
 
 #### OPÇÃO 3: Relação única, com um atributo de tipo de especialização
 
@@ -62,7 +62,7 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|PESSOA (CodCli, **Tipo**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodCli) IS PRIMARY KEY|
+|PESSOA (CodPes, **Tipo**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodPes) IS PRIMARY KEY|
 
 #### OPÇÃO 4: Relação única, com multiplos atributos de tipo de especialização
 
@@ -76,4 +76,4 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|PESSOA (CodCli, **Tipo_pessoa_fisica**, **Tipo_pessoa_juridica**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodCli) IS PRIMARY KEY|
+|PESSOA (CodPes, **Tipo_pessoa_fisica**, **Tipo_pessoa_juridica**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodPes) IS PRIMARY KEY|
