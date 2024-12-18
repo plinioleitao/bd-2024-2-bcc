@@ -90,7 +90,8 @@ Quais unidades de armazenamento possuem o produto P disponível ?<br>
 |CLIENTE (CPF, Nome, Endereco)<br>CLIENTE (CPF) IS PRIMARY KEY|
 |TIPO_EVENTO (Codigo, Nome, EntradaSaida)<br>TIPO_EVENTO (Codigo) IS PRIMARY KEY|
 |EVENTO (Numero, Data, Qtde, CodTipoEvento, CodProduto, CodUnidade)<br>EVENTO (Numero) IS PRIMARY KEY<br>EVENTO (CodTipoEvento) REFERENCES TIPO_EVENTO (Codigo)<br>EVENTO (CodProduto) REFERENCES PRODUTO (Codigo)<br>EVENTO (CodUnidade) REFERENCES UNIDADE (Codigo)|
-|VENDA (NumEvento, CPF)<br>VENDA (NumEvento) IS PRIMARY<br>VENDA (NumEvento) REFERENCES EVENTO (Numero)<br>VENDA (CPF) REFERENCES CLIENTE (CPF)|
+|E_VENDA (NumEvento, CPF)<br>E_VENDA (NumEvento) IS PRIMARY<br>E_VENDA (NumEvento) REFERENCES EVENTO (Numero)<br>E_VENDA (CPF) REFERENCES CLIENTE (CPF)|
+|E_DEVOLUCAO (NumEvento, CPF, Motivo)<br>E_DEVOLUCAO (NumEvento) IS PRIMARY<br>E_DEVOLUCAO (NumEvento) REFERENCES EVENTO (Numero)<br>E_DEVOLUCAO (CPF) REFERENCES CLIENTE (CPF)|
 
 ### Bibliografia
 
