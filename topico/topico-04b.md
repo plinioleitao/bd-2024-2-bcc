@@ -84,12 +84,12 @@ Quais unidades de armazenamento possuem o produto P disponível ?<br>
 
 |Esquema Lógico|
 |-|
-|TIPO_EVENTO (Codigo, Nome, EntradaSaida)<br>TIPO_EVENTO (Codigo) IS PRIMARY KEY|
 |PRODUTO (Codigo, Preco, Nome)<br>PRODUTO (Codigo) IS PRIMARY KEY|
 |UNIDADE (Codigo, Nome, Endereco)<br>UNIDADE (Codigo) IS PRIMARY KEY|
 |FORNECEDOR (CNPJ, Nome, Endereco)<br>FORNECEDOR (CNPJ) IS PRIMARY KEY|
 |CLIENTE (CPF, Nome, Endereco)<br>CLIENTE (CPF) IS PRIMARY KEY|
-||
+|TIPO_EVENTO (Codigo, Nome, EntradaSaida)<br>TIPO_EVENTO (Codigo) IS PRIMARY KEY|
+|EVENTO (Numero, Data, Qtde, CodTipoEvento, CodProduto, CodUnidade)<br>EVENTO (Numero) IS PRIMARY KEY<br>EVENTO (CodTipoEvento) REFERENCES TIPO_EVENTO (Codigo)<br>EVENTO (CodProduto) REFERENCES PRODUTO (Codigo)<br>EVENTO (CodUnidade) REFERENCES UNIDADE (Codigo)|
 
 ### Bibliografia
 
