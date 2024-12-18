@@ -1,3 +1,4 @@
+[Tópico 39](./topico-39.md) - Normalização<br>
 [Tópico 38](./topico-38.md) - Mapeamento MER para MR (parte 4)<br>
 [Tópico 37](./topico-37.md) - Mapeamento MER para MR (parte 3)<br>
 [Tópico 36](./topico-36.md) - Mapeamento MER para MR (parte 2)<br>
