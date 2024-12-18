@@ -31,7 +31,7 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 |Esquema de relação|
 |-|
 |PESSOA (CodPes, Fone)<br>PESSOA (CodPes) IS PRIMARY KEY|
-|PESSOAJURIDICA (CodPes, CGC, RazaoSocial)<br>PESSOAJURIDICA (CodPes) IS PRIMARY KEY<br>PESSOAJURIDICA (CodPes) REFERENCES PESSOA (CodPes)|
+|PESSOAJURIDICA (CodPes, CGC, RazaoSocial, NomeFantasia)<br>PESSOAJURIDICA (CodPes) IS PRIMARY KEY<br>PESSOAJURIDICA (CodPes) REFERENCES PESSOA (CodPes)|
 |PESSOAFISICA (CodPes, CPF, Nome, DataNasc, Sexo)<br>PESSOAFISICA (CodPes) IS PRIMARY KEY<br>PESSOAFISICA (CodPes) REFERENCES PESSOA (CodPes)|
 
 #### OPÇÃO 2: Relações múltiplas - restrito a subclasses
@@ -46,7 +46,7 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|PESSOAJURIDICA (CodPes, Fone, CGC, RazaoSocial)<br>PESSOAJURIDICA (CodPes) IS PRIMARY KEY|
+|PESSOAJURIDICA (CodPes, Fone, CGC, RazaoSocial, NomeFantasia)<br>PESSOAJURIDICA (CodPes) IS PRIMARY KEY|
 |PESSOAFISICA (CodPes, Fone, CPF, Nome, DataNasc, Sexo)<br>PESSOAFISICA (CodPes) IS PRIMARY KEY|
 
 #### OPÇÃO 3: Relação única, com um atributo de tipo de especialização
@@ -62,7 +62,7 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|PESSOA (CodPes, **Tipo**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodPes) IS PRIMARY KEY|
+|PESSOA (CodPes, **Tipo**, Fone, CGC, RazaoSocial, NomeFantasia, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodPes) IS PRIMARY KEY|
 
 #### OPÇÃO 4: Relação única, com multiplos atributos de tipo de especialização
 
@@ -76,4 +76,4 @@ Sobre o **BD Simples**, a aplicação desta opção resulta em:
 
 |Esquema de relação|
 |-|
-|PESSOA (CodPes, **Tipo_pessoa_fisica**, **Tipo_pessoa_juridica**, Fone, CGC, RazaoSocial, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodPes) IS PRIMARY KEY|
+|PESSOA (CodPes, **Tipo_pessoa_fisica**, **Tipo_pessoa_juridica**, Fone, CGC, RazaoSocial, NomeFantasia, CPF, Nome, DataNasc, Sexo)<br>PESSOA (CodPes) IS PRIMARY KEY|
