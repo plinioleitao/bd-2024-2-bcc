@@ -95,6 +95,15 @@ Quais unidades de armazenamento possuem o produto P disponível ?<br>
 |E_COMPRA (NumEvento, CNPJ)<br>E_COMPRA (NumEvento) IS PRIMARY<br>E_COMPRA (NumEvento) REFERENCES EVENTO (Numero)<br>E_COMPRA (CNPJ) REFERENCES FORNECEDOR (CNPJ)|
 |ESTOQUE (CodProduto, CodUnidade, EstoqueMinimo, EstoqueMaximo)<br>ESTOQUE (CodProduto, CodUnidade) IS PRIMARY KEY<br>ESTOQUE (CodProduto) REFERENCES PRODUTO (Codigo)<br>ESTOQUE (CodUnidade) REFERENCES UNIDADE (Codigo)|
 
+Que produtos estão com estoque abaixo do mínimo na unidade de armazenamento U ?<br>
+
+SELECT CodUnidade, CodProduto<br>
+FROM ESTOQUE NATURAL JOIN<br>
+     ( SELECT CodUnidade, CodProduto, SUM(Qtde) AS EstoqueAtual<br>
+       FROM EVENTO<br>
+       GROUP BY CodUnidade, CodProduto ) AS SQUERY<br>
+WHERE EstoqueAtual < EstoqueMinimo
+
 ### Bibliografia
 
 [1] ELMASRI, R.; NAVATHE, S. B. Sistemas de Banco de Dados. 6. ed. Pearson, 2011.
